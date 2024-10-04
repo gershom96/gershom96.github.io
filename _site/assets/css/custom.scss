@@ -1,0 +1,137 @@
+/* Custom styles */
+
+body {
+    font-family: 'Roboto', sans-serif; /* Preferred font */
+    font-size: 18px; /* Adjust size as needed */
+}
+
+.profile {
+    width: 80% !important;
+    text-align: center; /* Center text in the profile */
+    
+    img {
+        height: auto; 
+        margin-left: 10px;
+        margin-right: 10px; 
+        object-fit: cover;
+    }
+}
+
+.clearfix p {
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center vertically */
+    text-align: left; /* Align text to the left */
+}
+
+.navbar {
+    color: #000 !important;
+    background-color: #e7e7e7 !important;
+    opacity: 1.0;
+    font-size: 20px;
+    a, span {
+        color: #000 !important; /* Force link and text color */
+        
+        &:hover {
+            color: #0056b3 !important; /* Change link color on hover */
+        }
+    }
+}
+
+footer .social {
+    background-color: var(--global-bg-color) !important;
+    text-align: center; /* Center the social icons */
+    padding-top: 10px !important;
+}
+.social .contact-icons {
+margin-bottom: 0px;
+}
+
+.social .contact-note {
+font-size: 14px;
+color: #6c757d; /* Optional: Style the contact note text */
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Spacing between header, content, and footer */
+}
+
+.article-content {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+    flex-grow: 1; /* Allow content to grow in remaining space */
+}
+
+.col-12.col-md-3 {
+    display: flex;               /* Enable flexbox */
+    flex-direction: column;      /* Stack children vertically */
+    justify-content: center;      /* Center content vertically */
+    align-items: center;          /* Center content horizontally */
+    height: 100%;                 /* Optional: Ensure it fills the parent's height */
+}
+
+.navbar-toggler .icon-bar {
+    background-color: #000000 !important;
+}
+
+
+.navbar-toggler{
+    background-color: #00000036!important;
+}
+
+.navbar-toggler {
+    margin-left: 97% !important;
+    margin-right: 0px !important; /* Remove auto margin on right side */
+}
+
+.h1, h1 {
+    font-size: 3.5rem !important;
+    margin-bottom: 10px;
+}
+
+.justify-content-between {
+    justify-content: start !important;
+}
+
+.badge {
+    max-width: 100%; /* Allow it to take up available width */
+    white-space: normal; /* Allow wrapping */
+    overflow-wrap: break-word; /* Break words if necessary */
+}
+
+.vertical-socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    text-decoration: none;
+    margin-top: 20px; /* Margin on top */
+    margin-left: 10px !important;
+    // width: 40px;
+    // height: 40px;
+}
+
+.social-link {
+    margin-bottom: 10px; /* Space between links */
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.social-link:hover {
+    text-decoration: none; /* Remove underline on hover */
+    background-color: rgba(38, 152, 186, 0.1); /* Optional: Background change on hover */
+}
+
+.social-link span {
+    color: #2698ba; /* Link color */
+    text-decoration: underline; /* Underline links */
+}
+
+.social-link i {
+    color: white; /* Icon color */
+    margin-right: 5px; /* Space between icon and text */
+    font-size: 40px !important; /* Increase icon size */
+    width: 40px;
+    height: 40px;
+}

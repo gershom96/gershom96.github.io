@@ -1,0 +1,9 @@
+github_users:
+  - gershom96
+  - SelfDrivingUOM
+
+repo_description_lines_max: 2
+
+github_repos:
+  - gershom96/CROSS-GAiT
+  - SelfDrivingUOM/Behavioural_and_Local_Planning_and_Maneuvering
