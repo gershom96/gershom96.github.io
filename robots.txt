@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://gershom.me/sitemap.xml
+Sitemap: https://gershom96.github.io/sitemap.xml
