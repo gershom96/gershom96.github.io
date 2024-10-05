@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
-  <!-- Head -->
+<html>
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
     <!-- Metadata, OpenGraph and Schema.org -->
 
 
@@ -17,12 +15,12 @@
   
   
     
-      a post with formatting and links | Gershom Seneviratne
+      Offline Reinforcement Learning | Gershom Seneviratne
     
   
 </title>
 <meta name="author" content="Gershom Seneviratne">
-<meta name="description" content="march &amp; april, looking forward to summer">
+<meta name="description" content="an example of a distill-style blog post and main elements">
 
   <meta name="keywords" content="Gershom, Seneviratne, Gershom Seneviratne, Robotics, Motion Planning, Path Planning, Complex Environments, Representation Learning, VLM, LLM, Cross Attention">
 
@@ -60,7 +58,7 @@
   <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
 
 <link rel="stylesheet" href="/assets/css/main.css?d41d8cd98f00b204e9800998ecf8427e">
-<link rel="canonical" href="http://0.0.0.0:8080/blog/2015/formatting-and-links/">
+<link rel="canonical" href="http://0.0.0.0:8080/blog/2024/distill/">
 
 <!-- Dark Mode -->
 <script src="/assets/js/theme.js?9a0c749ec5240d9cda97bc72359a72c0"></script>
@@ -81,10 +79,95 @@
 
 
 
+    
+      <!-- Medium Zoom JS -->
+      <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
+      <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
+    
+    <!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    
+  
+    <!-- MathJax -->
+    <script type="text/javascript">
+      window.MathJax = {
+        tex: {
+          tags: 'ams',
+        },
+      };
+    </script>
+    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
+  
+
+
+
+    <!-- Distill js -->
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    <script src="/assets/js/distillpub/overrides.js"></script>
+    
+      <!-- Page/Post style -->
+      <style type="text/css">
+        .fake-img {
+  background: #bbb;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+} .fake-img p {
+  font-family: monospace;
+  color: white;
+  text-align: left;
+  margin: 12px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+      </style>
+    
   </head>
 
-  <!-- Body -->
-  <body class="fixed-top-nav ">
+  <body>
+<d-front-matter>
+    <script async type="text/json">
+      {
+            "title": "Offline Reinforcement Learning",
+            "description": "an example of a distill-style blog post and main elements",
+            "published": "October 04, 2024",
+            "authors": [
+              
+              {
+                "author": "Gershom Seneviratne",
+                "authorURL": "https://en.wikipedia.org/wiki/Albert_Einstein",
+                "affiliations": [
+                  {
+                    "name": "ECE, UMD",
+                    "url": ""
+                  }
+                ]
+              }
+              
+            ],
+            "katex": {
+              "delimiters": [
+                {
+                  "left": "$",
+                  "right": "$",
+                  "display": false
+                },
+                {
+                  "left": "$$",
+                  "right": "$$",
+                  "display": true
+                }
+              ]
+            }
+          }
+    </script>
+  </d-front-matter>
+
+  
     <!-- Header -->
     <header>
   <!-- Nav Bar -->
@@ -289,164 +372,143 @@
 
 
     <!-- Content -->
-    <div class="container mt-5" role="main">
+    <div class="post distill">
+      <d-title>
+        <h1>Offline Reinforcement Learning</h1>
+        <p>an example of a distill-style blog post and main elements</p>
+      </d-title>
       
+        <d-byline></d-byline>
+      
+
+      <d-article>
         
-
-
-
-
-
-
-
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">a post with formatting and links</h1>
-    <p class="post-meta">
-      Created in March 15, 2015
-      
-      
-      
-    </p>
-    <p class="post-tags">
-      
-        <a href="/blog/2015"> <i class="fa-solid fa-calendar fa-sm"></i> 2015 </a>
-      
-      
-          ·  
+          <d-contents>
+            <nav class="l-text figcaption">
+              <h3>Contents</h3>
+              
+                <div>
+                  <a href="#introduction">Introduction</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#formal-definition">Formal Definition</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#key-results">Key Results</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#applications">Applications</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#open-research-questions">Open Research Questions</a>
+                </div>
+                
+              
+                <div>
+                  <a href="#references">References</a>
+                </div>
+                
+              
+            </nav>
+          </d-contents>
         
-          
-            <a href="/blog/tag/formatting"> <i class="fa-solid fa-hashtag fa-sm"></i> formatting</a>
-          
-          
-             
-          
-        
-          
-            <a href="/blog/tag/links"> <i class="fa-solid fa-hashtag fa-sm"></i> links</a>
-          
-          
-        
-      
+        <h2 id="introduction">Introduction</h2>
 
-      
-          ·  
-        
-          
-            <a href="/blog/category/sample-posts">
-              <i class="fa-solid fa-tag fa-sm"></i> sample-posts</a>
-          
-          
-        
-      
-    </p>
-  </header>
+<p>Offline RL refers to a paradigm in reinforcement learning where the agent learns policies from a fixed dataset collected by a previous policy or from human demonstrations, without interacting with the environment in real-time. This is crucial when interacting with the environment is costly, unsafe, or impractical, such as in healthcare, robotics, or autonomous driving.</p>
 
-  <article class="post-content">
-    
-    <div id="markdown-content">
-      <p>Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" rel="external nofollow noopener" target="_blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" rel="external nofollow noopener" target="_blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.</p>
+<h2 id="formal-definition">Formal Definition</h2>
 
-<h4 id="hipster-list">Hipster list</h4>
+<h2 id="formal-definition-1">Formal Definition</h2>
 
+<p>Let ( \mathcal{D} ) represent the offline dataset consisting of transitions ( (s_t, a_t, r_t, s_{t+1}) ), where ( s_t ) is the state, ( a_t ) is the action, ( r_t ) is the reward, and ( s_{t+1} ) is the next state. The goal of offline RL is to find a policy ( \pi ) that maximizes the expected return:</p>
+
+\[J(\pi) = \mathbb{E}_{\pi} \left[ \sum_{t=0}^{T} \gamma^t r_t \right]\]
+
+<p>where ( \gamma ) is the discount factor, and ( \mathcal{D} ) is the only source of information available for learning the policy.</p>
+
+<p>The challenge is dealing with the <strong>distributional shift</strong> due to the policy deviating from the behavior seen in the offline data.</p>
+
+<h2 id="key-results">Key Results</h2>
+
+<p>Offline RL methods must handle distributional shift, which occurs when the learned policy selects actions that differ from those in the offline dataset. The main approaches to tackle this issue are:</p>
 <ul>
-  <li>brunch</li>
-  <li>fixie</li>
-  <li>raybans</li>
-  <li>messenger bag</li>
+  <li>
+<strong>Conservative Policy Learning</strong>: Penalizes deviations from the behavior policy.</li>
+  <li>
+<strong>Model-Based RL</strong>: Uses the dataset to learn a model of the environment and optimizing the policy through model rollouts.</li>
+  <li>
+<strong>Corrected Q-Learning</strong>: Corrects the value estimates to account for the mismatch between actions in the dataset and those chosen by the policy.</li>
 </ul>
 
-<h4 id="check-list">Check List</h4>
+<h2 id="connection-to-decision-making-in-robotics">Connection to Decision-Making in Robotics</h2>
 
-<ul class="task-list">
-  <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled checked>Brush Teeth</li>
-  <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled>Put on socks
-    <ul class="task-list">
-      <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled checked>Put on left sock</li>
-      <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled>Put on right sock</li>
-    </ul>
-  </li>
-  <li class="task-list-item">
-<input type="checkbox" class="task-list-item-checkbox" disabled checked>Go to school</li>
+<p>In robotics, real-world interaction is often expensive and risky. Offline RL enables learning from pre-recorded interactions, such as simulations or demonstrations, making it particularly useful for tasks like robotic manipulation or navigation, where safety and operational costs are a concern. For example, a robot learning to navigate through narrow corridors could use offline RL to avoid costly collisions during training.</p>
+
+<h2 id="variants-of-offline-rl">Variants of Offline RL</h2>
+<ul>
+  <li>
+<strong>Batch RL</strong>: The traditional setting where the policy must be trained solely on the provided batch of data.</li>
+  <li>
+<strong>Conservative Q-Learning (CQL)</strong>: A method that penalizes Q-values for out-of-distribution actions.</li>
+  <li>
+<strong>Implicit Q-Learning (IQL)</strong>: A variant that avoids estimating out-of-distribution actions by focusing on behavior cloning combined with Q-learning.</li>
+  <li>
+<strong>Behavior Regularized Actor Critic (BRAC)</strong>: Enforces a constraint on the learned policy to stay close to the behavior policy.</li>
 </ul>
 
-<p>Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90’s yr typewriter selfies letterpress cardigan vegan.</p>
+<h2 id="applications-of-offline-rl">Applications of Offline RL</h2>
+
+<p>Offline RL is widely used in:</p>
+<ul>
+  <li>
+<strong>Robotics</strong>: Training robots on offline data to prevent costly real-world trial and error.</li>
+  <li>
+<strong>Healthcare</strong>: Learning treatment strategies from historical patient data.</li>
+  <li>
+<strong>Autonomous Driving</strong>: Learning safe policies from driving data.</li>
+</ul>
+
+<h2 id="open-research-questions">Open Research Questions</h2>
+
+<p>Challenges in Offline RL include:</p>
+<ol>
+  <li>
+<strong>Generalization</strong>: Ensuring the policy performs well in unseen scenarios.</li>
+  <li>
+<strong>Dataset Bias</strong>: Mitigating biases present in offline data.</li>
+  <li>
+<strong>Exploration-Exploitation</strong>: Balancing effective policy learning without further exploration.</li>
+</ol>
+
+<h2 id="references">References</h2>
+
+<ol>
+  <li>Fujimoto, S., et al. “Off-Policy Deep Reinforcement Learning without Exploration.” 2019.</li>
+  <li>Levine, S., et al. “Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems.” 2020.</li>
+</ol>
 
 <hr>
 
-<p>Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.</p>
+<p>Now you can include this directly into your file without needing to modify it externally. Let me know if you need further adjustments.</p>
 
-<blockquote>
-  <p>We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-—Anais Nin</p>
-</blockquote>
+      </d-article>
 
-<p>Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.</p>
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
-    </div>
-  </article>
+      <d-bibliography src="/assets/bibliography/2018-12-22-distill.bib"></d-bibliography>
 
-  
-
-  
-
-  
-    
       
-
-  
-    
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/distill/">Offline Reinforcement Learning</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/tabs/">a post with tabs</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/typograms/">a post with typograms</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/post-citation/">a post that can be cited</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2024/pseudocode/">a post with pseudo code</a>
-  </li>
-
-
-
-    
-  
-
-  
-  
-</div>
-
       
     </div>
 
@@ -523,83 +585,10 @@
   </footer>
 
 
-
-    <!-- JavaScripts -->
-    <!-- jQuery -->
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-
     <!-- Bootsrap & MDB scripts -->
 <script src="/assets/js/bootstrap.bundle.min.js"></script>
 <!-- <script src="/assets/js/mdb.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
-
-    
-  <!-- Masonry & imagesLoaded -->
-  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
-
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-  <!-- Medium Zoom JS -->
-  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/zoom.js?85ddb88934d28b74e78031fd54cf8308"></script>
-
-
-
-<!-- Bootstrap Table -->
-
-
-<!-- Load Common JS -->
-<script src="/assets/js/no_defer.js?2781658a0a2b13ed609542042a859126"></script>
-<script defer src="/assets/js/common.js?e0514a05c5c95ac1a93a8dfd5249b92e"></script>
-<script defer src="/assets/js/copy_code.js?12775fdf7f95e901d7119054556e495f" type="text/javascript"></script>
-
-<!-- Jupyter Open External Links New Tab -->
-<script defer src="/assets/js/jupyter_new_tab.js?d9f17b6adc2311cbabd747f4538bb15f"></script>
-
-
-
-    
-  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-
-
-  <script async src="https://badge.dimensions.ai/badge.js"></script>
-
-
-    
-  
-    <!-- MathJax -->
-    <script type="text/javascript">
-      window.MathJax = {
-        tex: {
-          tags: 'ams',
-        },
-      };
-    </script>
-    <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script>
-    <script defer src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6" crossorigin="anonymous"></script>
-  
-
-
-    
 
     
 
@@ -685,12 +674,6 @@
 
 
     
-
-    
-
-    
-
-    
   <script src="/assets/js/vanilla-back-to-top.min.js?f40d453793ff4f64e238e420181a1d17"></script>
   <script>
     addBackToTop();
@@ -699,5 +682,6 @@
 
     
 
-  </body>
+  
+</body>
 </html>
