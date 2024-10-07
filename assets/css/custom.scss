@@ -76,7 +76,6 @@ color: #6c757d; /* Optional: Style the contact note text */
     background-color: #000000 !important;
 }
 
-
 .navbar-toggler{
     background-color: #00000036!important;
 }
@@ -108,14 +107,16 @@ color: #6c757d; /* Optional: Style the contact note text */
     text-decoration: none;
     margin-top: 20px; /* Margin on top */
     margin-left: 10px !important;
-    // width: 40px;
-    // height: 40px;
 }
 
 .social-link {
     margin-bottom: 10px; /* Space between links */
     display: flex; /* Use flexbox for alignment */
     align-items: center; /* Center items vertically */
+
+    span{
+        margin-left: 5px !important;
+    }
 }
 
 .social-link:hover {
@@ -134,4 +135,31 @@ color: #6c757d; /* Optional: Style the contact note text */
     font-size: 40px !important; /* Increase icon size */
     width: 40px;
     height: 40px;
+}
+
+.table{
+    color: #e8e8e8 !important;
+}
+
+nav[data-toggle=toc] .nav>li>a {
+    font-size: 1.2rem !important;
+}
+
+#toc-sidebar {
+    padding-left: 25%;
+}
+
+.duration{
+    font-size: 0.91rem;
+    margin-bottom: 3px !important;
+
+}
+
+.location{
+    text-align: left !important;
+    font-size: 0.91rem !important;
+}
+
+.card-title {
+    margin-bottom: 0rem !important;
 }
