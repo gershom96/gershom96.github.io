@@ -16,7 +16,7 @@ let toggleThemeSetting = () => {
 let setThemeSetting = (themeSetting) => {
   localStorage.setItem("theme", themeSetting);
 
-  document.documentElement.setAttribute("data-theme-setting", themeSetting);
+  document.documentElement.setAttribute("data-theme-setting", "dark");
 
   applyTheme();
 };
@@ -50,7 +50,7 @@ let applyTheme = () => {
     setVegaLiteTheme(theme);
   }
 
-  document.documentElement.setAttribute("data-theme", theme);
+  document.documentElement.setAttribute("data-theme", "dark");
 
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
