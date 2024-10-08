@@ -1,6 +1,6 @@
 <ul class="card-text font-weight-light list-group list-group-flush">
-  {% assign work = data[1] | sort: 'startDate' | reverse %}
-  {% for content in work %}
+  {% assign research = data[1] | sort: 'startDate' | reverse %}
+  {% for content in research %}
     <li class="list-group-item">
       <div class="row">
         <!-- Left column for date, institution, location, and advisors -->
@@ -37,19 +37,40 @@
             </p>
           {% endif %}
         </div>
+
+        <!-- Right column for title and responsibilities -->
         <div class="col-xs-8 cl-sm-8 col-md-8 mt-2 mt-md-0">
+          <!-- Title -->
+
           <h6 class="title font-weight-bold ml-1 ml-md-4">
-            <a href="{{ content.url }}">{{ content.position }}</a>
+            {{ content.position }}
           </h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.name }}</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.summary }}</h6>
-          <ul class="items">
-            {% for item in content.highlights %}
+          <h6 class="title font-weight-bold ml-1 ml-md-4">
+            Project: {{ content.title }}
+          </h6>
+          
+          <!-- Responsibilities -->
+          <ul class="items ml-1 ml-md-4">
+            {% for responsibility in content.responsibilities %}
               <li>
-                <span class="item">{{ item }}</span>
+                <span class="item">{{ responsibility }}</span>
               </li>
             {% endfor %}
           </ul>
+          
+          <!-- Achievement (if available) -->
+          {% if content.achievement %}
+            <p class="achievement ml-1 ml-md-4" style="font-size: 0.9rem; font-style: italic;">
+              Achievement: {{ content.achievement }}
+            </p>
+          {% endif %}
+
+          <!-- Technologies (if available) -->
+          {% if content.technologies %}
+            <p class="technologies ml-1 ml-md-4">
+              Technologies: {{ content.technologies | join: ', ' }}
+            </p>
+          {% endif %}
         </div>
       </div>
     </li>

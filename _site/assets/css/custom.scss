@@ -150,6 +150,7 @@ nav[data-toggle=toc] .nav>li>a {
 }
 
 .duration{
+    text-align: left !important;
     font-size: 0.91rem;
     margin-bottom: 3px !important;
 
@@ -158,8 +159,26 @@ nav[data-toggle=toc] .nav>li>a {
 .location{
     text-align: left !important;
     font-size: 0.91rem !important;
+    margin-bottom: 3px !important;
+
+}
+
+.school{
+    text-align: left !important;
+    font-size: 0.91rem !important;
+    margin-bottom: 3px !important;
+}
+
+.advisors{
+    text-align: left !important;
+    font-size: 0.91rem !important;
+    margin-bottom: 3px !important;
 }
 
 .card-title {
     margin-bottom: 0rem !important;
+}
+
+.sub-pub{
+    margin-top: 8px !important;
 }

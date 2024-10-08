@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:8080/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-07T20:04:21+00:00</updated><id>http://0.0.0.0:8080/feed.xml</id><title type="html">blank</title><subtitle>Gershom Seneviratne&apos;s personal website.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:8080/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-08T17:23:24+00:00</updated><id>http://0.0.0.0:8080/feed.xml</id><title type="html">blank</title><subtitle>Gershom Seneviratne&apos;s personal website.
 </subtitle><entry><title type="html">Offline Reinforcement Learning</title><link href="http://0.0.0.0:8080/blog/2024/distill/" rel="alternate" type="text/html" title="Offline Reinforcement Learning" /><published>2024-10-04T00:00:00+00:00</published><updated>2024-10-04T00:00:00+00:00</updated><id>http://0.0.0.0:8080/blog/2024/distill</id><content type="html" xml:base="http://0.0.0.0:8080/blog/2024/distill/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Offline RL refers to a paradigm in reinforcement learning where the agent learns policies from a fixed dataset collected by a previous policy or from human demonstrations, without interacting with the environment in real-time. This is crucial when interacting with the environment is costly, unsafe, or impractical, such as in healthcare, robotics, or autonomous driving.</p>
@@ -88,7 +88,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="0b8a5070-1708-48e4-a2a9-0c8f5e738f38" data-name="log">
+<ul id="log" class="tab" data-tab="40131309-599c-48c0-8eee-25d554fc2009" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -103,7 +103,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="0b8a5070-1708-48e4-a2a9-0c8f5e738f38" data-name="log">
+<ul class="tab-content" id="40131309-599c-48c0-8eee-25d554fc2009" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -127,7 +127,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="d95d5d1f-8595-4d03-928a-3466fa930f2d" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="71f26d1f-5f90-46b9-af42-0009185214b4" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -138,7 +138,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="d95d5d1f-8595-4d03-928a-3466fa930f2d" data-name="data-struct">
+<ul class="tab-content" id="71f26d1f-5f90-46b9-af42-0009185214b4" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -160,7 +160,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="e42d1b2a-f9d3-4a75-91d2-56c8ae5c0259" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="4da4078c-c07f-46ce-b01b-04c2dba94026" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -175,7 +175,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="e42d1b2a-f9d3-4a75-91d2-56c8ae5c0259" data-name="something-else">
+<ul class="tab-content" id="4da4078c-c07f-46ce-b01b-04c2dba94026" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
