@@ -79,8 +79,8 @@
       "technologies": ["Transformers", "LLM", "VLM", "Cross-Attention", "Representation Learning", "Reinforcement Learning","ROS2", "ROS", "Pytorch", "wandb"],
       "responsibilities": [
         "Developed an algorithm for adaptive gait changes in quadruped robots that leverages cross-attention to dynamically fuse visual and time-series data, optimizing gait parameters for diverse terrain conditions.",
-        "Developed autonomous robot navigation algorithms that interprets human commands using vision-language models to enhance navigation and behavioral compliance in outdoor environments.",
-        "Developed an autonomous navigation algorithm that integrates vision-language models with proprioceptive sensing to assess terrain properties, improving navigational success rates in complex outdoor environments."
+        "Contributed to the development of autonomous robot navigation algorithms that interprets human commands using vision-language models to enhance navigation and behavioral compliance in outdoor environments.",
+        "Contributed to the development of an autonomous navigation algorithm that integrates vision-language models with proprioceptive sensing to assess terrain properties, improving navigational success rates in complex outdoor environments."
       ]
     }
   ],
