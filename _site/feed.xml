@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:8080/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-12T04:26:22+00:00</updated><id>http://0.0.0.0:8080/feed.xml</id><title type="html">blank</title><subtitle>Gershom Seneviratne&apos;s personal website.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://0.0.0.0:8080/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:8080/" rel="alternate" type="text/html" hreflang="en" /><updated>2024-10-12T04:37:20+00:00</updated><id>http://0.0.0.0:8080/feed.xml</id><title type="html">blank</title><subtitle>Gershom Seneviratne&apos;s personal website.
 </subtitle><entry><title type="html">Offline Reinforcement Learning</title><link href="http://0.0.0.0:8080/blog/2024/distill/" rel="alternate" type="text/html" title="Offline Reinforcement Learning" /><published>2024-10-04T00:00:00+00:00</published><updated>2024-10-04T00:00:00+00:00</updated><id>http://0.0.0.0:8080/blog/2024/distill</id><content type="html" xml:base="http://0.0.0.0:8080/blog/2024/distill/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Offline Reinforcement Learning (RL) is an approach to teaching machines or agents how to make decisions using pre-existing data without interacting with the environment during the learning process. It is an extension of traditional reinforcement learning, where an agent interacts with the environment in real time, receiving feedback (rewards or punishments) based on its actions and updating its behavior accordingly.</p>
@@ -156,7 +156,7 @@ Content 2
 
 <p>With this you can generate visualizations like:</p>
 
-<ul id="log" class="tab" data-tab="c08c2474-3eaa-4521-b265-968c5936593c" data-name="log">
+<ul id="log" class="tab" data-tab="9980e3e5-1747-4634-8a66-360be2237114" data-name="log">
   
       <li class="active" id="log-php">
           <a href="#">php </a>
@@ -171,7 +171,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="c08c2474-3eaa-4521-b265-968c5936593c" data-name="log">
+<ul class="tab-content" id="9980e3e5-1747-4634-8a66-360be2237114" data-name="log">
   
       <li class="active">
 <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
@@ -195,7 +195,7 @@ Content 2
 
 <h2 id="another-example">Another example</h2>
 
-<ul id="data-struct" class="tab" data-tab="d5cd58d1-fa93-4582-88d5-d25e380c1625" data-name="data-struct">
+<ul id="data-struct" class="tab" data-tab="0cd6f2ad-1c15-4c85-b064-7db56914df8c" data-name="data-struct">
   
       <li class="active" id="data-struct-yaml">
           <a href="#">yaml </a>
@@ -206,7 +206,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="d5cd58d1-fa93-4582-88d5-d25e380c1625" data-name="data-struct">
+<ul class="tab-content" id="0cd6f2ad-1c15-4c85-b064-7db56914df8c" data-name="data-struct">
   
       <li class="active">
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
@@ -228,7 +228,7 @@ Content 2
 
 <h2 id="tabs-for-something-else">Tabs for something else</h2>
 
-<ul id="something-else" class="tab" data-tab="70161723-0a55-44c5-9e00-2df9fec65a66" data-name="something-else">
+<ul id="something-else" class="tab" data-tab="133f0dc1-986d-4026-b9e6-1763ef2dbab6" data-name="something-else">
   
       <li class="active" id="something-else-text">
           <a href="#">text </a>
@@ -243,7 +243,7 @@ Content 2
       </li>
   
 </ul>
-<ul class="tab-content" id="70161723-0a55-44c5-9e00-2df9fec65a66" data-name="something-else">
+<ul class="tab-content" id="133f0dc1-986d-4026-b9e6-1763ef2dbab6" data-name="something-else">
   
       <li class="active">
 <p>Regular text</p>
